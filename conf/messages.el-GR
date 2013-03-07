@@ -1,5 +1,5 @@
 # Application
-app.name = Παιχνιδιάρικη Ιστοσελίδα
+app.name = Γενική Πύλη Εξατομίκευσης
 
 # Forms
 forms.signin = Είσοδος
@@ -59,14 +59,21 @@ signup.title = Εγγραφή
 # Welcome
 welcome.title = Καλώς ορίσατε
 
-welcome.article.1.title = Γειά σου, Κόσμε!
-welcome.article.1.p.1 = Αυτό είναι ένα πρότυπο για μια απλή ιστοσελίδα αγορών ή ενημέρωσης. Περιλαμβάνει μια μεγάλη κεντρική επεξήγηση, η οποία ονομάζεται μονάδα ήρωα (hero unit) και τρία κομμάτια υποστήριξης του περιεχομένου. Χρησιμοποιήστε το ως ένα σημείο εκκίνησης για να δημιουργήσουμε κάτι πιο μοναδικό.
-welcome.article.1.learnmore = Μάθε περισσότερα
+welcome.article.1.title = Καλώς ορίσατε στη Γενική Πύλη Εξατομίκευσης!
+welcome.article.1.p.1 = Πρόσβαση σε εξατομικευμένη πληροφορία πάνω σε εκπαιδευτικό υλικό, βιβλία και ειδήσεις.
+welcome.article.1.learnmore = Μάθετε περισσότερα
 
-welcome.article.2.title = Τίτλος
-welcome.article.2.p.1 = Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-welcome.article.2.p.2 = Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+welcome.article.2.title = Εξατομικευμένο Εκπαιδευτικό Σύστημα
+welcome.article.2.p.1 = Δυο κουβέντες σχετικά με το εξατομικευμένο εκπαιδευτικό σύστημα. Μπλα μπλα μπλα...
 welcome.article.2.viewdetails = Δες λεπτομέρειες
+
+welcome.article.3.title = Εξατομικευμένο Σύστημα Βιβλιοθήκης
+welcome.article.3.p.1 = Δυο κουβέντες σχετικά με το εξατομικευμένο σύστημα βιβλιοθήκης. Μπλα μπλα μπλα...
+welcome.article.3.viewdetails = Δες λεπτομέρειες
+
+welcome.article.4.title = Eξατομικευμένη Υπηρεσία Ενημέρωσης
+welcome.article.4.p.1 = Δυο κουβέντες σχετικά με το εξατομικευμένη υπηρεσία ενημέρωσης. Μπλα μπλα μπλα...
+welcome.article.4.viewdetails = Δες λεπτομέρειες
 
 # Misc.
 misc.or = ή
