@@ -1,0 +1,32 @@
+@(evaluationForm: Form[Evaluation], user: User)
+
+@main(play.i18n.Messages.get("evaluation.title"), user) {
+
+    @helper.form(routes.Application.evaluate) {
+        <fieldset>
+            <legend><h1>@play.i18n.Messages.get("evaluation.title")</h1></legend>
+            
+            @if(flash.contains("success")) {
+                <div class="alert alert-success">
+                <a class="close" data-dismiss="alert">×</a>
+                    @flash.get("success")
+                </div>
+            }
+
+            <p>
+                <input type="text" name="q1" placeholder="@play.i18n.Messages.get("evaluation.q1")" value="@evaluationForm("q1").value">
+            </p>
+            <p>
+                <input type="text" name="q2" placeholder="@play.i18n.Messages.get("evaluation.q2")" value="@evaluationForm("q2").value">
+            </p>
+            <p>
+                <input type="text" name="q3" placeholder="@play.i18n.Messages.get("evaluation.q3")" value="@evaluationForm("q3").value">
+            </p>
+        </fieldset>
+
+        <div class="form-actions">
+            <button type="submit" class="btn btn-success">@play.i18n.Messages.get("forms.submit")</button>
+        </div>
+    }
+
+}

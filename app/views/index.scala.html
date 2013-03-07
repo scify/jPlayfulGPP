@@ -1,7 +1,36 @@
-@(message: String)
+@(user: User)
 
-@main("Welcome to Play 2.1") {
-    
-    @play20.welcome(message, style = "Java")
-    
+@main(play.i18n.Messages.get("index.title"), user) {
+    <section>
+        @if(user != null) {
+            <dl id="user">
+            @defining(user.name + " " + user.surname) { fullname =>
+                <dt>@play.i18n.Messages.get("misc.hello") @fullname <span>(@user.email)</span></dt>
+            }
+            <dd><a href="@routes.Application.signOut">@play.i18n.Messages.get("forms.signout")</a></dd>
+            <dd><a href="@routes.Application.evaluation">@play.i18n.Messages.get("evaluation.title")</a></dd>    
+            </dl>
+        }
+    </section>
+
+    <section>
+        <article>
+            <header>
+                <h1><a href="">@play.i18n.Messages.get("index.article.1.title")</a></h1>
+            </header>
+            <iframe class="youtube-player" type="text/html" width="640" height="385" src="http://www.youtube.com/embed/ZJPUu1wev3o" frameborder="0">
+            </iframe>
+        </article>
+
+        <article>
+            <header>
+                <h1><a href="">@play.i18n.Messages.get("index.article.2.title")</a></h1>
+            </header>
+            <p>@play.i18n.Messages.get("index.article.2.p.1")</p>
+            <p>@play.i18n.Messages.get("index.article.2.p.2")</p>
+            <p>@play.i18n.Messages.get("index.article.2.p.3")</p>
+            <p>@play.i18n.Messages.get("index.article.2.p.4")</p>
+            <p>@play.i18n.Messages.get("index.article.2.p.5")</p>
+        </article>
+    </section>
 }

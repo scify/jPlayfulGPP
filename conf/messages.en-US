@@ -1,0 +1,73 @@
+# Application
+app.name = Playful Website
+
+# Forms
+forms.signin = Sign-in
+forms.signup = Sign-up
+forms.signout = Sign-out
+forms.submit = Submit
+forms.email = Email
+forms.email.confirm = Confirm Email
+forms.password = Password
+forms.password.confirm = Confirm Password
+forms.name = Name
+forms.surname = Surname
+forms.rememberme = Remember Me
+forms.required = Required fields
+
+# Evaluation
+evaluation.title = Evaluation
+evaluation.q1 = Question 1
+evaluation.q2 = Question 2
+evaluation.q3 = Question 3
+
+# Index
+index.title = Home
+
+index.article.1.title = HTML 5 YouTube video
+
+index.article.2.title = History
+index.article.2.p.1 = Work on HTML 5 originally started in late 2003, as a proof of concept to show that it was possible to extend HTML 4's forms to provide many of the features that XForms 1.0 introduced, without requiring browsers to implement rendering engines that were incompatible with existing HTML Web pages. At this early stage, while the draft was already publicly available, and input was already being solicited from all sources, the specification was only under Opera Software's copyright.
+index.article.2.p.2 = In early 2004, some of the principles that underlie this effort, as well as an early draft proposal covering just forms-related features, were presented to the W3C jointly by Mozilla and Opera at a workshop discussing the future of Web Applications on the Web. The proposal was rejected on the grounds that the proposal conflicted with the previously chosen direction for the Web's evolution.
+index.article.2.p.3 = Shortly thereafter, Apple, Mozilla, and Opera jointly announced their intent to continue working on the effort. A public mailing list was created, and the drafts were moved to the WHATWG site. The copyright was subsequently amended to be jointly owned by all three vendors, and to allow reuse of the specifications.
+index.article.2.p.4 = In 2006, the W3C expressed interest in the specification, and created a working group chartered to work with the WHATWG on the development of the HTML 5 specifications. The working group opened in 2007. Apple, Mozilla, and Opera allowed the W3C to publish the specifications under the W3C copyright, while keeping versions with the less restrictive license on the WHATWG site.
+index.article.2.p.5 = Since then, both groups have been working together.
+
+# Main
+main.home = Home
+main.about = About
+main.contact = Contact
+main.dropdown = Dropdown
+main.languages = Languages
+main.languages.enus = English (US)
+main.languages.elgr = Greek
+
+# 404
+pagenotfound.title = Page Not Found
+pagenotfound.notfound = Not found
+pagenotfound.sorry = Sorry, but the page you were trying to view does not exist.
+pagenotfound.potential = It looks like this was the result of either
+pagenotfound.potential.1 = a mistyped address
+pagenotfound.potential.2 = an out-of-date link
+
+# Sign In
+signin.title = Sign In
+
+# Sign Up
+signup.title = Sign Up
+
+# Welcome
+welcome.title = Welcome
+
+welcome.article.1.title = Hello, world!
+welcome.article.1.p.1 = This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.
+welcome.article.1.learnmore = Learn more
+
+welcome.article.2.title = Heading
+welcome.article.2.p.1 = Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+welcome.article.2.p.2 = Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+welcome.article.2.viewdetails = View details
+
+# Misc.
+misc.or = or
+misc.hello = Hello

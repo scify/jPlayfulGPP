@@ -1,0 +1,73 @@
+# Application
+app.name = Παιχνιδιάρικη Ιστοσελίδα
+
+# Forms
+forms.signin = Είσοδος
+forms.signup = Εγγραφή
+forms.signout = Έξοδος
+forms.submit = Υποβολή
+forms.email = Διεύθυνση Ηλ.Ταχυδρομείου
+forms.email.confirm = Επιβεβαίωση Διεύθυνσης Ηλ. Ταχυδρομείου
+forms.password = Κωδικός Πρόσβασης
+forms.password.confirm = Επιβεβαίωση Κωδικού Πρόσβασης
+forms.name = Όνομα
+forms.surname = Επώνυμο
+forms.rememberme = Θυμίσου με
+forms.required = Υποχρεωτικό πεδίο
+
+# Evaluation
+evaluation.title = Εκτίμηση
+evaluation.q1 = Ερώτηση 1
+evaluation.q2 = Ερώτηση 2
+evaluation.q3 = Ερώτηση 3
+
+# Index
+index.title = Αρχική
+
+index.article.1.title = Βίντεο YouTube HTML 5
+
+index.article.2.title = Ιστορία
+index.article.2.p.1 = Η HTML 5 αρχικά ξεκίνησε στα τέλη του 2003, ως εφαρμόγή της θεωρίας ότι είναι δυνατή η επέκταση των φορμών της HTML 4 για να παρέχονται δυνατότητες που πρωτοεμφανίστηκαν ως μέρος των XForms 1.0, χωρίς να είναι απαραίτητο οι πλοηγοί να υλοποιούν εξειδικευμένες μηχανές απόδοσης, ασύμβατες με τις υπάρχουσες HTML Ιστοσελίδες. Στα πρώτα στάδια, ενώ το προσχέδιο ήταν ήδη δημόσια διαθέσιμο, και η συμβολή όλων των πηγών είχε ζητηθεί, η προδιαγραφή ήταν μόνο υπό την άδεια Λογισμικού Opera περί πνευματικής ιδιοκτησίας.
+index.article.2.p.2 = Στις αρχές του 2004, μερικές από τις αρχές που διέπουν αυτή την προσπάθεια, καθώς και ένα αρχικό σχέδιο πρότασης που κάλυπτε μόνο τις μορφές που σχετίζονται με τα χαρακτηριστικά, παρουσιάστηκαν στο W3C από κοινού από Mozilla και Opera σε ένα εργαστήριο στο οποίο γινόταν η συζήτηση για το μέλλον των Ιστοεφαρμογών στον Ιστό. Η πρόταση απορρίφθηκε με την αιτιολογία ότι η πρόταση ερχόταν σε σύγκρουση με την ήδη επιλεγμένη κατεύθυνση για την εξέλιξη του Παγκόσμιου Ιστού.
+index.article.2.p.3 = Λίγο αργότερα οι Apple, Mozilla και Opera ανακοίνωσαν από κοινού την πρόθεσή τους να συνεχίσουν να εργάζονται για αυτήν τη προσπάθεια. Μια δημόσια λίστα δημιουργήθηκε, και τα σχέδια μεταφέρθηκαν στην ιστοσελίδα WHATWG. Τα πνευματικά δικαιώματα εν συνεχεία τροποποιήθηκαν ώστε να ανήκουν από κοινού στους τρεις προμηθευτές, και να επιτρέψουν την επαναχρησιμοποίηση των προδιαγραφών.
+index.article.2.p.4 = Το 2006, η W3C εξέφρασε ενδιαφέρον για την προδιαγραφή, και δημιούργησε μια ομάδα εργασίας η οποία θα συνεργαζόταν με την WHATWG προς την ανάπτυξη της προδιαγραφής HTML 5. Η ομάδα εργασίας ξεκίνησε το 2007. Οι Apple, Mozilla και Opera επέτρεψαν στην W3C να δημοσιεύει τις προδιαγραφές υπό την άδεια W3C περί πνευματικών δικαιωμάτων, διατηρώντας παράλληλα εκδόσεις με το λιγότερο περιοριστική άδεια στο χώρο της WHATWG.
+index.article.2.p.5 = Από τότε, οι δύο ομάδες εργάζονται από κοινού.
+
+# Main
+main.home = Αρχική
+main.about = Σχετικά
+main.contact = Επικοινωνία
+main.dropdown = Πτυσσόμενο
+main.languages = Γλώσσες
+main.languages.enus = Αγγλικά (US)
+main.languages.elgr = Ελληνικά
+
+# 404
+pagenotfound.title = Η Σελίδα Δεν Βρέθηκε
+pagenotfound.notfound = Δεν Βρέθηκε
+pagenotfound.sorry = Λυπούμαστε, αλλά η σελίδα που προσπαθήσατε να δείτε δεν υπάρχει.
+pagenotfound.potential = Φαίνεται ότι αυτό ήταν αποτέλεσμα ενός εκ των παρακάτω
+pagenotfound.potential.1 = τυπογραφικό λάθος στη διεύθυνση
+pagenotfound.potential.2 = παρωχημένος σύνδεσμος
+
+# Sign In
+signin.title = Είσοδος
+
+# Sign Up
+signup.title = Εγγραφή
+
+# Welcome
+welcome.title = Καλώς ορίσατε
+
+welcome.article.1.title = Γειά σου, Κόσμε!
+welcome.article.1.p.1 = Αυτό είναι ένα πρότυπο για μια απλή ιστοσελίδα αγορών ή ενημέρωσης. Περιλαμβάνει μια μεγάλη κεντρική επεξήγηση, η οποία ονομάζεται μονάδα ήρωα (hero unit) και τρία κομμάτια υποστήριξης του περιεχομένου. Χρησιμοποιήστε το ως ένα σημείο εκκίνησης για να δημιουργήσουμε κάτι πιο μοναδικό.
+welcome.article.1.learnmore = Μάθε περισσότερα
+
+welcome.article.2.title = Τίτλος
+welcome.article.2.p.1 = Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+welcome.article.2.p.2 = Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+welcome.article.2.viewdetails = Δες λεπτομέρειες
+
+# Misc.
+misc.or = ή
+misc.hello = Γειά σου

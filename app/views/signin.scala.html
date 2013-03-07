@@ -1,0 +1,53 @@
+@(signInForm: Form[Application.SignIn])
+
+@main(play.i18n.Messages.get("signin.title"), null) {
+
+    @helper.form(routes.Application.authenticate) {
+        <fieldset>
+            <legend><h1>@play.i18n.Messages.get("signin.title")</h1></legend>
+
+            @if(signInForm.hasErrors) {
+                <div class="alert alert-error">
+                    <ul>
+                        @for((field, error) <- signInForm.errors) {
+                            <li>
+                                <a class="close" data-dismiss="alert">x</a>@signInForm.error(field).message
+                            </li>
+                        }
+                    </ul>
+                </div>
+            }
+
+            @if(flash.contains("success")) {
+                <div class="alert alert-success">
+                    <a class="close" data-dismiss="alert">×</a>
+                    @flash.get("success")
+                </div>
+            }
+            
+            <form class="form-horizontal">
+                <div class="control-group">
+                    <label class="control-label" for="email">@play.i18n.Messages.get("forms.email")</label>
+                    <div class="controls">
+                        <input type="text" name="email" id="email" placeholder="@play.i18n.Messages.get("forms.email")" value="@signInForm("email").value">
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label" for="password">@play.i18n.Messages.get("forms.password")</label>
+                    <div class="controls">
+                        <input type="password" name="password" id="password" placeholder="@play.i18n.Messages.get("forms.password")">
+                    </div>
+                </div>
+                <div class="control-group">
+                    <div class="controls">
+                        <label class="checkbox">
+                            <input type="checkbox"> @play.i18n.Messages.get("forms.rememberme")
+                        </label>
+                        <button type="submit" class="btn">@play.i18n.Messages.get("forms.signin")</button> @play.i18n.Messages.get("misc.or") <a href="@routes.Application.signUp">@play.i18n.Messages.get("forms.signup")</a>
+                    </div>
+                </div>
+            </form>
+        </fieldset>            
+    }
+
+}
